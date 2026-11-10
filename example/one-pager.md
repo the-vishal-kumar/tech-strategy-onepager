@@ -82,7 +82,7 @@ The main lever is right-sizing: servers run at 18% CPU and the database is sized
 | p95 API latency at month-end | 850 ms | < 300 ms |
 | Deploy frequency | Weekly | Daily |
 | Change failure rate | 22% | < 10% |
-| Infrastructure cost per active customer | $100 / month | ≤ $65 / month |
+| Infrastructure cost per active customer | $100 / month | ≤ $66 / month |
 | Enterprise deals lost to SSO, audit or residency gaps | 6 | 0 |
 
 ## 9. Decisions requested

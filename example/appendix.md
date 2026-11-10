@@ -55,7 +55,7 @@ Monthly, in thousands of USD. "End 2027" includes the EU cell and planned growth
 
 ### Sensitivity
 
-- **Customer growth at double the plan (620 by end 2027):** cost rises to about $38K/month; per-customer cost falls to about $61.
+- **Customer growth at double the plan (630 by end 2027):** cost rises to about $38K/month; per-customer cost falls to about $61.
 - **Growth at half the plan (465):** cost about $31K/month; per-customer cost about $67, still above target. The main fix would be to delay EU staging and keep the commitment at the lower baseline.
 - **EU cell not built:** end-2027 cost about $27K/month, $52 per customer.
 
