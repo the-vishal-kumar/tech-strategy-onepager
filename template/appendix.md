@@ -14,6 +14,8 @@ Supporting detail for the [one-pager](one-pager.md). Readers should be able to s
 | [Alternative] | | | | |
 | Do nothing | | | | |
 
+[For build-vs-buy choices, attach the [vendor scorecard](../toolkit/build-vs-buy.md).]
+
 ## C. Cost model
 
 | Line item | Today | [Milestone 1] | [Milestone 2] | Lever and assumption |

@@ -29,7 +29,7 @@ flowchart LR
   C --> D[(Data)]
 ```
 
-## 4. Roadmap
+## 4. Phased approach
 
 | Quarter | Theme | Deliverables | Exit criteria |
 |---|---|---|---|
@@ -51,13 +51,15 @@ flowchart LR
 | Infrastructure / month | [...] | [...] | [...] |
 | Cost per [unit: customer, tenant, transaction] | [...] | [...] | [...] |
 
-[One sentence on the main lever and why it is safe. Full model in the appendix.]
+[One sentence on the main lever and why it is safe. Full model in the appendix. Monthly actuals come from the [FinOps review](../toolkit/finops-review.md).]
 
 ## 7. Team
 
-[Current shape, changes, hires by quarter, and what happens if hiring slips.]
+[Current shape, changes, hires by quarter, and what happens if hiring slips. Use the [org design template](../toolkit/org-design.md) for the team-by-team view.]
 
 ## 8. Success metrics
+
+[Outcome metrics the business recognises, plus delivery and reliability metrics. These become key results in the [operating model](../toolkit/operating-model.md).]
 
 | Metric | Baseline | Target [date] |
 |---|---|---|
