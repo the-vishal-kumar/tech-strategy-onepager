@@ -55,7 +55,7 @@ Monthly, in thousands of USD. "End 2027" includes the EU cell and planned growth
 
 ### Sensitivity
 
-- **Customer growth at double the plan (630 by end 2027):** cost rises to about $38K/month; per-customer cost falls to about $61.
+- **Customer growth at double the plan (630 by end 2027):** cost rises to about $38K/month; per-customer cost falls to about $60.
 - **Growth at half the plan (465):** cost about $31K/month; per-customer cost about $67, still above target. The main fix would be to delay EU staging and keep the commitment at the lower baseline.
 - **EU cell not built:** end-2027 cost about $27K/month, $52 per customer.
 
@@ -68,7 +68,7 @@ Monthly, in thousands of USD. "End 2027" includes the EU cell and planned growth
 | Senior backend engineer (integrations) | Queue-based ERP sync | Q2 | Squad with ERP knowledge takes it on; one product feature deferred |
 | EU-based SRE | On-call cover in EU working hours; local credibility with EU customers | Q3 | US on-call covers with an extended rotation and higher on-call pay, for at most two quarters |
 
-The platform team is 5 people: 2 from the current infrastructure group, 1 internal move from a product squad, and the first two hires. Headcount grows from 28 to 32. Product squads keep their current size.
+The platform team is 5 people by Q2: 2 from the current infrastructure group, 1 internal move from the Integrations squad, and the first two hires. It becomes 6 when the EU-based SRE joins in Q3. The senior backend hire joins Integrations and backfills the internal move, so product squads keep their current size. Headcount grows from 28 to 32. The team-by-team view is in the [org design worked example](../toolkit/org-design.md#worked-example-fictional).
 
 ## E. Metric definitions
 
