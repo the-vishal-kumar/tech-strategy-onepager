@@ -12,8 +12,8 @@ Supporting detail for the [one-pager](one-pager.md).
 | Peak traffic | ~1,200 requests/s on the last 3 working days of the month | Load balancer metrics |
 | Availability, trailing 12 months | 99.5% (about 44 hours of downtime) | Synthetic checks |
 | p95 API latency, month-end vs other days | 850 ms vs 240 ms | APM |
-| Database CPU at 02:00–05:00 (nightly jobs) | 85–95% | Database metrics |
-| Database CPU, rest of the day | 25–35% | Database metrics |
+| Database CPU at 02:00-05:00 (nightly jobs) | 85-95% | Database metrics |
+| Database CPU, rest of the day | 25-35% | Database metrics |
 | App server average CPU | 18% | Cloud monitoring, 30-day average |
 | Change failure rate | 22% | Deploy log joined to incident tracker |
 
@@ -27,7 +27,7 @@ Month-end latency and the oversized database have the same cause: reporting and 
 | Rewrite into microservices | High | 6+ quarters | High: long freeze on features | Rejected. Solves an org-scaling problem we don't have at 28 engineers |
 | Multi-region single database with row-level residency | High | 4 quarters | High: complex, hard to prove to auditors | Rejected. Residency must be easy to explain to a customer's security team |
 | Buy residency through a hosting partner | Medium | 2 quarters | Medium: lock-in, less control over SLOs | Kept as fallback if hiring slips badly |
-| Do nothing | Low now | — | High: enterprise and EU plans stall | Rejected |
+| Do nothing | Low now | - | High: enterprise and EU plans stall | Rejected |
 
 ## C. Cost model
 

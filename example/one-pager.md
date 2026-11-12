@@ -45,7 +45,7 @@ flowchart LR
 
 | Quarter | Theme | Deliverables | Exit criteria |
 |---|---|---|---|
-| Q1 2027 | Foundations | Tracing and SLO dashboards; cost levers 1–4 (appendix C); read replica for reporting; CI quality gates | p95 < 500 ms at month-end; cost ≤ $30K/month |
+| Q1 2027 | Foundations | Tracing and SLO dashboards; cost levers 1 to 4 (appendix C); read replica for reporting; CI quality gates | p95 < 500 ms at month-end; cost ≤ $30K/month |
 | Q2 2027 | Enterprise features | SSO (SAML/OIDC); audit log; queue-based ERP sync; module boundaries enforced in CI | 2 enterprise pilots live on SSO; cost ≤ $26K/month |
 | Q3 2027 | EU cell | Tenant router; EU cell from shared IaC; first EU tenants; DR test in both cells | 3 EU tenants live; restore test in each cell meets RPO ≤ 5 min and RTO ≤ 1 h |
 | Q4 2027 | Scale and harden | Daily deploys; legacy batch jobs retired; per-tenant cost reporting | Targets in section 8 met |
@@ -54,7 +54,7 @@ flowchart LR
 
 | Risk | L / I | Mitigation | Owner |
 |---|---|---|---|
-| EU demand is lower than sales expects | M / H | EU cell build starts only after 3 signed EU letters of intent. Q1–Q2 work pays off without it | VP Eng + CRO |
+| EU demand is lower than sales expects | M / H | EU cell build starts only after 3 signed EU letters of intent. Q1 to Q2 work pays off without it | VP Eng + CRO |
 | A second cell doubles operational load | H / M | One IaC codebase, identical cells, one on-call rotation; platform team staffed first | Platform lead |
 | Cost savings erode as usage grows | M / M | Per-tenant cost dashboard; monthly review; commit discounts only on the right-sized baseline | Platform lead |
 | Hiring slips | M / H | Hires ordered by dependency; contractor fallback for SSO; EU cell moves to Q4 if platform team is under 4 people by end of Q2 | VP Eng |

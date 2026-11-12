@@ -18,7 +18,7 @@ If the answers point to "buy", score vendors. If they point to "build", write an
 
 ## Step 2: score the options
 
-Score each criterion 1–5. Agree the weights **before** looking at vendors, so the weights do not drift toward a favourite.
+Score each criterion 1 to 5. Agree the weights **before** looking at vendors, so the weights do not drift toward a favourite.
 
 | Criterion | Weight | What 5 looks like |
 |---|---|---|
@@ -39,7 +39,7 @@ Compare 3-year costs, not list prices.
 
 | Cost | Build | Vendor A | Vendor B |
 |---|---|---|---|
-| Licences or subscription | — | | |
+| Licences or subscription | - | | |
 | Engineering to build or integrate (engineer-months × loaded monthly cost) | | | |
 | Running it: infrastructure, on-call, upgrades (per year × 3) | | | |
 | Training and migration | | | |
