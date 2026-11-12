@@ -4,7 +4,7 @@ For a new head of engineering, VP, CTO or CPTO. The first 90 days earn the right
 
 Copy the template below and fill it in with your manager in week 1. Agreeing what "good" looks like at day 90 is the most useful conversation of the first month.
 
-## Days 1–30: listen and learn
+## Days 1-30: listen and learn
 
 **Goal:** understand the business, the people and the system well enough to describe the current state with numbers.
 
@@ -20,7 +20,7 @@ Copy the template below and fill it in with your manager in week 1. Agreeing wha
 
 **Output:** a written current-state summary. It becomes section 2 of the one-pager.
 
-## Days 31–60: diagnose and choose
+## Days 31-60: diagnose and choose
 
 **Goal:** pick the two or three problems that block the business most, and test your diagnosis with the people who will do the work.
 
@@ -32,7 +32,7 @@ Copy the template below and fill it in with your manager in week 1. Agreeing wha
 
 **Output:** a diagnosis agreed with the CEO and the engineering leadership team, and a short list of early fixes delivered.
 
-## Days 61–90: commit
+## Days 61-90: commit
 
 **Goal:** a written strategy, approved, with the first quarter's work under way.
 
@@ -46,7 +46,7 @@ Copy the template below and fill it in with your manager in week 1. Agreeing wha
 
 ## Template
 
-| | Days 1–30 | Days 31–60 | Days 61–90 |
+| | Days 1-30 | Days 31-60 | Days 61-90 |
 |---|---|---|---|
 | Goal | | | |
 | Key activities | | | |

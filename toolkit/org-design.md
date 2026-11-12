@@ -6,7 +6,7 @@ Use this when a strategy changes what teams own, when teams wait on each other m
 
 - **Design teams around the flow of change to customers,** not around technology layers. A "frontend team" and a "backend team" need a handoff for every feature.
 - **Respect cognitive load.** A team owns only as much software as it can understand and run well. If on-call means paging someone who has never seen the service, the team owns too much.
-- **Teams of 5–9 people,** long-lived, with work brought to the team rather than people moved to the work.
+- **Teams of 5 to 9 people,** long-lived, with work brought to the team rather than people moved to the work.
 - **Architecture follows the org and the org follows the architecture** (Conway's law). Change both together, or the old shape returns.
 
 ## Team types
@@ -51,7 +51,7 @@ Measure dependencies with evidence: how many of a team's last 20 tickets waited 
 - [ ] Each stream-aligned team can ship its most common change without another team's approval.
 - [ ] Platform teams have named internal customers and a measure of adoption.
 - [ ] Every collaboration has an end date.
-- [ ] Manager span is 5–8 direct reports.
+- [ ] Manager span is 5 to 8 direct reports.
 
 ### 4. Transition
 

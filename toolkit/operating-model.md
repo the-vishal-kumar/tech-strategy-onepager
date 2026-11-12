@@ -33,8 +33,8 @@ Product manager, tech lead and designer form the **product trio**. They do disco
 - **Objectives are outcomes for customers or the business,** not projects. "Finance teams close the month without waiting on us" rather than "build the reporting replica".
 - **Two to four key results per objective,** each a number with a baseline: "p95 latency at month-end from 850 ms to under 300 ms".
 - **Team OKRs link to one company objective.** If a team cannot link its work to one, ask whether the work should happen.
-- **Leave room for keeping the lights on.** Reserve a stated share of capacity for operations, support and tech debt (commonly 20–30%) outside the OKRs, so OKRs do not quietly absorb it.
-- **Score at the end of the quarter, 0.0–1.0.** Consistent 1.0 means the targets were too safe. Do not tie OKR scores to individual pay.
+- **Leave room for keeping the lights on.** Reserve a stated share of capacity for operations, support and tech debt (commonly 20 to 30%) outside the OKRs, so OKRs do not quietly absorb it.
+- **Score at the end of the quarter, 0.0 to 1.0.** Consistent 1.0 means the targets were too safe. Do not tie OKR scores to individual pay.
 
 ### OKR template
 

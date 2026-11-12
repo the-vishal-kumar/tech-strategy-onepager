@@ -18,10 +18,10 @@ Prepare from the billing export and monitoring, not from memory:
 | Total spend | Cloud bill, all accounts | | | Within budget |
 | Unit cost | Spend ÷ [business unit] | | | Flat or falling as you grow |
 | Allocated spend | Share of spend with an owning-team tag | | | ≥ 90% |
-| Commitment coverage | Share of steady-state compute covered by commitments | | | 60–80% of the right-sized baseline |
+| Commitment coverage | Share of steady-state compute covered by commitments | | | 60-80% of the right-sized baseline |
 | Commitment utilisation | Share of committed spend actually used | | | ≥ 95% |
 | Idle and orphaned spend | Unattached volumes, old snapshots, idle load balancers, stopped-but-billed resources | | | Falling |
-| Non-production share | Non-production spend ÷ total | | | Agreed per company, often 10–20% |
+| Non-production share | Non-production spend ÷ total | | | Agreed per company, often 10-20% |
 
 The unit cost is the headline. Total spend that rises with customers is healthy; unit cost that rises is not.
 
@@ -38,7 +38,7 @@ Work through these in order. The order matters: commit only after right-sizing, 
 
 - [ ] **Delete what nobody uses.** Orphaned volumes, snapshots past retention, idle environments, unread buckets and logs. Confirm with the owning team, and keep anything in DR scope.
 - [ ] **Turn off what is idle.** Non-production off nights and weekends; preview environments deleted on merge.
-- [ ] **Right-size.** Use 2–4 weeks of utilisation data. Change one tier at a time and watch latency and errors before the next step.
+- [ ] **Right-size.** Use 2 to 4 weeks of utilisation data. Change one tier at a time and watch latency and errors before the next step.
 - [ ] **Move load before shrinking.** Batch and reporting work off the primary database, to replicas or queues, then resize.
 - [ ] **Storage and data transfer.** Lifecycle rules to cheaper storage classes; private endpoints instead of NAT for high-volume internal traffic; a CDN for downloads.
 - [ ] **Observability spend.** Drop debug logs in production, sample traces, set retention per log type.

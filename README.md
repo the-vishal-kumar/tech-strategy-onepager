@@ -1,6 +1,6 @@
 # tech-strategy-onepager
 
-[![docs](https://github.com/the-vishal-kumar/tech-strategy-onepager/actions/workflows/docs.yml/badge.svg)](https://github.com/the-vishal-kumar/tech-strategy-onepager/actions/workflows/docs.yml)
+[![docs](https://github.com/the-vishal-kumar/tech-strategy-onepager/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/the-vishal-kumar/tech-strategy-onepager/actions/workflows/docs.yml)
 
 A template for writing a technology strategy on one page, a worked example for a fictional B2B SaaS company, and the companion templates that produce the evidence each section needs.
 
