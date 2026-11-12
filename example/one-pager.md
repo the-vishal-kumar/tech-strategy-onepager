@@ -41,13 +41,13 @@ flowchart LR
 - **Modular monolith, not microservices.** We split the code into modules with enforced boundaries. Only ERP sync becomes a separate deployable, because it scales differently. With 28 engineers, more services would add operating cost before they add speed.
 - **SSO and audit log** are platform features owned by one team, not built per product area.
 
-## 4. Roadmap
+## 4. Phased approach
 
 | Quarter | Theme | Deliverables | Exit criteria |
 |---|---|---|---|
 | Q1 2027 | Foundations | Tracing and SLO dashboards; cost levers 1–4 (appendix C); read replica for reporting; CI quality gates | p95 < 500 ms at month-end; cost ≤ $30K/month |
 | Q2 2027 | Enterprise features | SSO (SAML/OIDC); audit log; queue-based ERP sync; module boundaries enforced in CI | 2 enterprise pilots live on SSO; cost ≤ $26K/month |
-| Q3 2027 | EU cell | Tenant router; EU cell from shared IaC; first EU tenants; DR test in both cells | 3 EU tenants live; restore test meets Tier 0 targets |
+| Q3 2027 | EU cell | Tenant router; EU cell from shared IaC; first EU tenants; DR test in both cells | 3 EU tenants live; restore test in each cell meets RPO ≤ 5 min and RTO ≤ 1 h |
 | Q4 2027 | Scale and harden | Daily deploys; legacy batch jobs retired; per-tenant cost reporting | Targets in section 8 met |
 
 ## 5. Risks
@@ -68,7 +68,7 @@ flowchart LR
 | Active customers (plan) | 410 | 440 | 520 |
 | Cost per active customer / month | $100 | $59 | $65 |
 
-The main lever is right-sizing: servers run at 18% CPU and the database is sized for nightly jobs that move to a replica. Commit discounts come after right-sizing, so we don't lock in waste. The $15K/month saved by Q2 more than pays for the EU cell, which adds about $8K/month. Full model in [appendix C](appendix.md#c-cost-model).
+The main lever is right-sizing: servers run at 18% CPU and the database is sized for nightly jobs that move to a replica. Commit discounts come after right-sizing, so we don't lock in waste. The $15K/month saved by Q2 more than pays for the EU cell, which adds about $7K/month (appendix C: $34K with it, $27K without). Full model in [appendix C](appendix.md#c-cost-model).
 
 ## 7. Team
 
